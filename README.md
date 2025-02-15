@@ -9,6 +9,7 @@
 ### Build container 
 
 `docker build -t my-microservice-streamlit .`
+
 `docker run -p 8501:8501 my-microservice-streamlit`
 
 Then go to http://localhost:8501/
